@@ -2,3 +2,4 @@
 .DS_Store
 .dpl-config.json
 log-step*
+*.txt
