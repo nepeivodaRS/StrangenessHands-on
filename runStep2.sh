@@ -26,6 +26,7 @@ if [ $rc -eq 0 ]; then
   echo "No problems!"
   mkdir -p "$DIR_THIS/results/$STEP"
   mv "AnalysisResults.root" "$DIR_THIS/results/$STEP/AnalysisResults.root"
+  mv "dpl-config.json" "$DIR_THIS/jsonConfig/$STEP.json"
 else
   echo "Error: Exit code $rc"
   echo "Check the log file $LOGFILE"
