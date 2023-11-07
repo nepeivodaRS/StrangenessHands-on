@@ -1,0 +1,10 @@
+/Users/rnepeiv/workLund/PhD_work/run3omega/data/used_in_analysis_note/29aug_localGT_anchored/user/r/rnepeivo/strange_prod/forthcoming/526641/556/AO2D.root
+/Users/rnepeiv/workLund/PhD_work/run3omega/data/used_in_analysis_note/29aug_localGT_anchored/user/r/rnepeivo/strange_prod/forthcoming/526641/309/AO2D.root
+/Users/rnepeiv/workLund/PhD_work/run3omega/data/used_in_analysis_note/29aug_localGT_anchored/user/r/rnepeivo/strange_prod/forthcoming/526641/193/AO2D.root
+/Users/rnepeiv/workLund/PhD_work/run3omega/data/used_in_analysis_note/29aug_localGT_anchored/user/r/rnepeivo/strange_prod/forthcoming/526641/156/AO2D.root
+/Users/rnepeiv/workLund/PhD_work/run3omega/data/used_in_analysis_note/29aug_localGT_anchored/user/r/rnepeivo/strange_prod/forthcoming/526641/024/AO2D.root
+/Users/rnepeiv/workLund/PhD_work/run3omega/data/used_in_analysis_note/29aug_localGT_anchored/user/r/rnepeivo/strange_prod/forthcoming/526641/227/AO2D.root
+/Users/rnepeiv/workLund/PhD_work/run3omega/data/used_in_analysis_note/29aug_localGT_anchored/user/r/rnepeivo/strange_prod/forthcoming/526641/015/AO2D.root
+/Users/rnepeiv/workLund/PhD_work/run3omega/data/used_in_analysis_note/29aug_localGT_anchored/user/r/rnepeivo/strange_prod/forthcoming/526641/012/AO2D.root
+/Users/rnepeiv/workLund/PhD_work/run3omega/data/used_in_analysis_note/29aug_localGT_anchored/user/r/rnepeivo/strange_prod/forthcoming/526641/826/AO2D.root
+/Users/rnepeiv/workLund/PhD_work/run3omega/data/used_in_analysis_note/29aug_localGT_anchored/user/r/rnepeivo/strange_prod/forthcoming/526641/065/AO2D.root

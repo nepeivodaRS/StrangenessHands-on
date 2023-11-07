@@ -1,0 +1,801 @@
+[INFO] Initialising O2 Data Processing Layer. Driver PID: 94982.
+[INFO] Driver listening on port: 13062
+[INFO] Rate limiting set up at 500MB distributed over 1 readers
+[INFO] O2 Data Processing Layer initialised. We brake for nobody.
+[INFO] Optimised build. O2DEBUG / LOG(debug) / LOGF(debug) / assert statement will not be shown.
+[INFO] Redeployment of configuration asked.
+[INFO] Starting internal-dpl-clock on pid 94984
+[INFO] Starting internal-dpl-aod-reader on pid 94985
+[INFO] Starting internal-dpl-aod-spawner on pid 94986
+[INFO] Starting bc-converter on pid 94987
+[INFO] Starting internal-dpl-aod-index-builder on pid 94988
+[INFO] Starting timestamp-task on pid 94989
+[INFO] Starting tracks-extra-converter on pid 94990
+[INFO] Starting track-propagation on pid 94991
+[INFO] Starting bc-selection-task on pid 94992
+[INFO] Starting tracks-extra-spawner on pid 94993
+[INFO] Starting event-selection-task on pid 94994
+[INFO] Starting pid-multiplicity on pid 94995
+[INFO] Starting tpc-pid on pid 94996
+[INFO] Starting tpc-pid-full on pid 94997
+[INFO] Starting lambdakzero-preselector on pid 94998
+[INFO] Starting lambdakzero-builder on pid 94999
+[INFO] Starting lambdakzero-initializer on pid 95000
+[INFO] Starting lambdakzero-label-builder on pid 95001
+[INFO] Starting lambdakzero-v0-data-link-builder on pid 95002
+[INFO] Starting cascade-preselector on pid 95003
+[INFO] Starting cascade-builder on pid 95004
+[INFO] Starting cascade-initializer on pid 95005
+[INFO] Starting cascade-label-builder on pid 95006
+[INFO] Starting cascade-link-builder on pid 95007
+[INFO] Starting kfcascade-link-builder on pid 95008
+[INFO] Starting strangeness_tutorial on pid 95009
+[INFO] Starting internal-dpl-aod-writer on pid 95010
+[INFO] Starting internal-dpl-aod-global-analysis-file-sink on pid 95011
+[INFO] Starting internal-dpl-injected-dummy-sink on pid 95012
+[INFO] Redeployment of configuration done.
+[94987:bc-converter]: [INFO] Instrumenting crash signals
+[94987:bc-converter]: [INFO] Spawing new device bc-converter in process with pid 94987
+[94987:bc-converter]: [16:54:24][INFO] 
+[94987:bc-converter]:       ______      _    _______  _________ 
+[94987:bc-converter]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[94987:bc-converter]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[94987:bc-converter]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[94987:bc-converter]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[94987:bc-converter]: 
+[94987:bc-converter]: [16:54:24][STATE] Starting FairMQ state machine --> IDLE
+[94987:bc-converter]: [16:54:24][STATE] IDLE ---> INITIALIZING DEVICE
+[94987:bc-converter]: [16:54:24][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[94987:bc-converter]: [16:54:24][STATE] INITIALIZED ---> BINDING
+[94987:bc-converter]: [16:54:24][STATE] BINDING ---> BOUND
+[94987:bc-converter]: [16:54:24][STATE] BOUND ---> CONNECTING
+[94987:bc-converter]: [16:54:24][STATE] CONNECTING ---> DEVICE READY
+[94987:bc-converter]: [16:54:24][STATE] DEVICE READY ---> INITIALIZING TASK
+[94987:bc-converter]: [16:54:24][STATE] INITIALIZING TASK ---> READY
+[94987:bc-converter]: [16:54:24][STATE] READY ---> RUNNING
+[94987:bc-converter]: [16:54:24][INFO] fair::mq::Device running...
+[94987:bc-converter]: [16:54:24][INFO] LHCPeriod is not available, using current month NOV
+[94987:bc-converter]: [16:54:24][INFO] Correctly handshaken websocket connection.
+[INFO] Controller for internal-dpl-aod-reader not yet available.
+[94984:internal-dpl-clock]: [INFO] Instrumenting crash signals
+[94984:internal-dpl-clock]: [INFO] Spawing new device internal-dpl-clock in process with pid 94984
+[94984:internal-dpl-clock]: [16:54:24][INFO] 
+[94984:internal-dpl-clock]:       ______      _    _______  _________ 
+[94984:internal-dpl-clock]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[94984:internal-dpl-clock]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[94984:internal-dpl-clock]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[94984:internal-dpl-clock]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[94984:internal-dpl-clock]: 
+[94984:internal-dpl-clock]: [16:54:24][STATE] Starting FairMQ state machine --> IDLE
+[94984:internal-dpl-clock]: [16:54:24][STATE] IDLE ---> INITIALIZING DEVICE
+[94990:tracks-extra-converter]: [INFO] Instrumenting crash signals
+[94984:internal-dpl-clock]: [16:54:24][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[94984:internal-dpl-clock]: [16:54:24][STATE] INITIALIZED ---> BINDING
+[94991:track-propagation]: [INFO] Instrumenting crash signals
+[94984:internal-dpl-clock]: [16:54:24][STATE] BINDING ---> BOUND
+[94984:internal-dpl-clock]: [16:54:24][STATE] BOUND ---> CONNECTING
+[94984:internal-dpl-clock]: [16:54:24][STATE] CONNECTING ---> DEVICE READY
+[94984:internal-dpl-clock]: [16:54:24][STATE] DEVICE READY ---> INITIALIZING TASK
+[94984:internal-dpl-clock]: [16:54:24][STATE] INITIALIZING TASK ---> READY
+[94984:internal-dpl-clock]: [16:54:24][STATE] READY ---> RUNNING
+[94984:internal-dpl-clock]: [16:54:24][INFO] fair::mq::Device running...
+[94984:internal-dpl-clock]: [16:54:24][INFO] LHCPeriod is not available, using current month NOV
+[94984:internal-dpl-clock]: [16:54:24][INFO] Correctly handshaken websocket connection.
+[94990:tracks-extra-converter]: [INFO] Spawing new device tracks-extra-converter in process with pid 94990
+[94990:tracks-extra-converter]: [16:54:24][INFO] 
+[94990:tracks-extra-converter]:       ______      _    _______  _________ 
+[94990:tracks-extra-converter]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[94990:tracks-extra-converter]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[94990:tracks-extra-converter]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[94990:tracks-extra-converter]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[94990:tracks-extra-converter]: 
+[94990:tracks-extra-converter]: [16:54:24][STATE] Starting FairMQ state machine --> IDLE
+[94990:tracks-extra-converter]: [16:54:24][STATE] IDLE ---> INITIALIZING DEVICE
+[94990:tracks-extra-converter]: [16:54:24][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[94990:tracks-extra-converter]: [16:54:24][STATE] INITIALIZED ---> BINDING
+[94991:track-propagation]: [INFO] Spawing new device track-propagation in process with pid 94991
+[94991:track-propagation]: [16:54:24][INFO] 
+[94991:track-propagation]:       ______      _    _______  _________ 
+[94991:track-propagation]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[94991:track-propagation]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[94991:track-propagation]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[94991:track-propagation]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[94991:track-propagation]: 
+[94991:track-propagation]: [16:54:24][STATE] Starting FairMQ state machine --> IDLE
+[94990:tracks-extra-converter]: [16:54:24][STATE] BINDING ---> BOUND
+[94990:tracks-extra-converter]: [16:54:24][STATE] BOUND ---> CONNECTING
+[94990:tracks-extra-converter]: [16:54:24][STATE] CONNECTING ---> DEVICE READY
+[94990:tracks-extra-converter]: [16:54:24][STATE] DEVICE READY ---> INITIALIZING TASK
+[94991:track-propagation]: [16:54:24][STATE] IDLE ---> INITIALIZING DEVICE
+[94990:tracks-extra-converter]: [16:54:24][STATE] INITIALIZING TASK ---> READY
+[94990:tracks-extra-converter]: [16:54:24][STATE] READY ---> RUNNING
+[94990:tracks-extra-converter]: [16:54:24][INFO] fair::mq::Device running...
+[94990:tracks-extra-converter]: [16:54:24][INFO] LHCPeriod is not available, using current month NOV
+[94990:tracks-extra-converter]: [16:54:24][INFO] Correctly handshaken websocket connection.
+[94989:timestamp-task]: [INFO] Instrumenting crash signals
+[94991:track-propagation]: [16:54:24][INFO] Init CcdApi with UserAgentID: visitor-117248221.dyndns.cern.ch-1699286064-h3BxJB, Host: http://alice-ccdb.cern.ch/
+[94991:track-propagation]: [16:54:24][INFO] Init CcdApi with UserAgentID: visitor-117248221.dyndns.cern.ch-1699286064-h3BxJB, Host: http://alice-ccdb.cern.ch
+[94989:timestamp-task]: [INFO] Spawing new device timestamp-task in process with pid 94989
+[94989:timestamp-task]: [16:54:24][INFO] 
+[94989:timestamp-task]:       ______      _    _______  _________ 
+[94989:timestamp-task]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[94989:timestamp-task]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[94989:timestamp-task]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[94989:timestamp-task]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[94989:timestamp-task]: 
+[94989:timestamp-task]: [16:54:24][STATE] Starting FairMQ state machine --> IDLE
+[94989:timestamp-task]: [16:54:24][STATE] IDLE ---> INITIALIZING DEVICE
+[94993:tracks-extra-spawner]: [INFO] Instrumenting crash signals
+[94993:tracks-extra-spawner]: [INFO] Spawing new device tracks-extra-spawner in process with pid 94993
+[94993:tracks-extra-spawner]: [16:54:24][INFO] 
+[94993:tracks-extra-spawner]:       ______      _    _______  _________ 
+[94993:tracks-extra-spawner]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[94993:tracks-extra-spawner]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[94993:tracks-extra-spawner]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[94993:tracks-extra-spawner]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[94993:tracks-extra-spawner]: 
+[94993:tracks-extra-spawner]: [16:54:24][STATE] Starting FairMQ state machine --> IDLE
+[94993:tracks-extra-spawner]: [16:54:24][STATE] IDLE ---> INITIALIZING DEVICE
+[94993:tracks-extra-spawner]: [16:54:24][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[94993:tracks-extra-spawner]: [16:54:24][STATE] INITIALIZED ---> BINDING
+[94993:tracks-extra-spawner]: [16:54:24][STATE] BINDING ---> BOUND
+[94993:tracks-extra-spawner]: [16:54:24][STATE] BOUND ---> CONNECTING
+[94993:tracks-extra-spawner]: [16:54:24][STATE] CONNECTING ---> DEVICE READY
+[94993:tracks-extra-spawner]: [16:54:24][STATE] DEVICE READY ---> INITIALIZING TASK
+[94986:internal-dpl-aod-spawner]: [INFO] Instrumenting crash signals
+[94993:tracks-extra-spawner]: [16:54:24][STATE] INITIALIZING TASK ---> READY
+[94993:tracks-extra-spawner]: [16:54:24][STATE] READY ---> RUNNING
+[94993:tracks-extra-spawner]: [16:54:24][INFO] fair::mq::Device running...
+[94993:tracks-extra-spawner]: [16:54:24][INFO] LHCPeriod is not available, using current month NOV
+[94993:tracks-extra-spawner]: [16:54:24][INFO] Correctly handshaken websocket connection.
+[94989:timestamp-task]: [16:54:24][INFO] Init CcdApi with UserAgentID: visitor-117248221.dyndns.cern.ch-1699286064-BZhdJx, Host: http://alice-ccdb.cern.ch/
+[94989:timestamp-task]: [16:54:24][INFO] Initializing TimestampTask
+[94989:timestamp-task]: [16:54:24][INFO] Init CcdApi with UserAgentID: visitor-117248221.dyndns.cern.ch-1699286064-BZhdJx, Host: http://alice-ccdb.cern.ch
+[94989:timestamp-task]: [16:54:24][INFO] Init CcdApi with UserAgentID: visitor-117248221.dyndns.cern.ch-1699286064-h19xJ9, Host: http://alice-ccdb.cern.ch
+[94995:pid-multiplicity]: [INFO] Instrumenting crash signals
+[94997:tpc-pid-full]: [INFO] Instrumenting crash signals
+[94989:timestamp-task]: [16:54:24][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[94986:internal-dpl-aod-spawner]: [INFO] Spawing new device internal-dpl-aod-spawner in process with pid 94986
+[94986:internal-dpl-aod-spawner]: [16:54:24][INFO] 
+[94986:internal-dpl-aod-spawner]:       ______      _    _______  _________ 
+[94986:internal-dpl-aod-spawner]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[94986:internal-dpl-aod-spawner]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[94986:internal-dpl-aod-spawner]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[94986:internal-dpl-aod-spawner]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[94986:internal-dpl-aod-spawner]: 
+[94986:internal-dpl-aod-spawner]: [16:54:24][STATE] Starting FairMQ state machine --> IDLE
+[94989:timestamp-task]: [16:54:24][STATE] INITIALIZED ---> BINDING
+[94986:internal-dpl-aod-spawner]: [16:54:24][STATE] IDLE ---> INITIALIZING DEVICE
+[94997:tpc-pid-full]: [INFO] Spawing new device tpc-pid-full in process with pid 94997
+[94986:internal-dpl-aod-spawner]: [16:54:24][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[94986:internal-dpl-aod-spawner]: [16:54:24][STATE] INITIALIZED ---> BINDING
+[94997:tpc-pid-full]: [16:54:24][INFO] 
+[94997:tpc-pid-full]:       ______      _    _______  _________ 
+[94997:tpc-pid-full]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[94997:tpc-pid-full]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[94997:tpc-pid-full]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[94997:tpc-pid-full]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[94997:tpc-pid-full]: 
+[94997:tpc-pid-full]: [16:54:24][STATE] Starting FairMQ state machine --> IDLE
+[94989:timestamp-task]: [16:54:24][STATE] BINDING ---> BOUND
+[94989:timestamp-task]: [16:54:24][STATE] BOUND ---> CONNECTING
+[94989:timestamp-task]: [16:54:24][STATE] CONNECTING ---> DEVICE READY
+[94989:timestamp-task]: [16:54:24][STATE] DEVICE READY ---> INITIALIZING TASK
+[94989:timestamp-task]: [16:54:24][STATE] INITIALIZING TASK ---> READY
+[94989:timestamp-task]: [16:54:24][STATE] READY ---> RUNNING
+[94989:timestamp-task]: [16:54:24][INFO] fair::mq::Device running...
+[94989:timestamp-task]: [16:54:24][INFO] LHCPeriod is not available, using current month NOV
+[94989:timestamp-task]: [16:54:24][INFO] Correctly handshaken websocket connection.
+[94997:tpc-pid-full]: [16:54:24][STATE] IDLE ---> INITIALIZING DEVICE
+[94997:tpc-pid-full]: [16:54:24][INFO] Init CcdApi with UserAgentID: visitor-117248221.dyndns.cern.ch-1699286064-BZptJp, Host: http://alice-ccdb.cern.ch/
+[94997:tpc-pid-full]: [16:54:24][INFO] Reco pass not specified; CCDB will take latest available object
+[94997:tpc-pid-full]: [16:54:24][INFO] Init CcdApi with UserAgentID: visitor-117248221.dyndns.cern.ch-1699286064-BZptJp, Host: http://alice-ccdb.cern.ch
+[94997:tpc-pid-full]: [16:54:24][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[94997:tpc-pid-full]: [16:54:24][STATE] INITIALIZED ---> BINDING
+[94986:internal-dpl-aod-spawner]: [16:54:24][STATE] BINDING ---> BOUND
+[94986:internal-dpl-aod-spawner]: [16:54:24][STATE] BOUND ---> CONNECTING
+[94986:internal-dpl-aod-spawner]: [16:54:24][STATE] CONNECTING ---> DEVICE READY
+[94986:internal-dpl-aod-spawner]: [16:54:24][STATE] DEVICE READY ---> INITIALIZING TASK
+[94997:tpc-pid-full]: [16:54:24][STATE] BINDING ---> BOUND
+[94997:tpc-pid-full]: [16:54:24][STATE] BOUND ---> CONNECTING
+[94997:tpc-pid-full]: [16:54:24][STATE] CONNECTING ---> DEVICE READY
+[94997:tpc-pid-full]: [16:54:24][STATE] DEVICE READY ---> INITIALIZING TASK
+[94997:tpc-pid-full]: [16:54:24][STATE] INITIALIZING TASK ---> READY
+[94997:tpc-pid-full]: [16:54:24][STATE] READY ---> RUNNING
+[94997:tpc-pid-full]: [16:54:24][INFO] fair::mq::Device running...
+[94997:tpc-pid-full]: [16:54:24][INFO] LHCPeriod is not available, using current month NOV
+[94986:internal-dpl-aod-spawner]: [16:54:24][STATE] INITIALIZING TASK ---> READY
+[94997:tpc-pid-full]: [16:54:24][INFO] Correctly handshaken websocket connection.
+[94986:internal-dpl-aod-spawner]: [16:54:24][STATE] READY ---> RUNNING
+[94986:internal-dpl-aod-spawner]: [16:54:24][INFO] fair::mq::Device running...
+[94986:internal-dpl-aod-spawner]: [16:54:24][INFO] LHCPeriod is not available, using current month NOV
+[94986:internal-dpl-aod-spawner]: [16:54:24][INFO] Correctly handshaken websocket connection.
+[94995:pid-multiplicity]: [INFO] Spawing new device pid-multiplicity in process with pid 94995
+[94995:pid-multiplicity]: [16:54:24][INFO] 
+[94995:pid-multiplicity]:       ______      _    _______  _________ 
+[94995:pid-multiplicity]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[94995:pid-multiplicity]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[94995:pid-multiplicity]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[94995:pid-multiplicity]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[94995:pid-multiplicity]: 
+[94995:pid-multiplicity]: [16:54:24][STATE] Starting FairMQ state machine --> IDLE
+[94995:pid-multiplicity]: [16:54:24][STATE] IDLE ---> INITIALIZING DEVICE
+[94995:pid-multiplicity]: [16:54:24][INFO] Initializing PID Mult Task
+[94995:pid-multiplicity]: [16:54:24][INFO] Table TPC PID Multiplicity enabled!
+[94995:pid-multiplicity]: [16:54:24][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[94995:pid-multiplicity]: [16:54:24][STATE] INITIALIZED ---> BINDING
+[94995:pid-multiplicity]: [16:54:24][STATE] BINDING ---> BOUND
+[94995:pid-multiplicity]: [16:54:24][STATE] BOUND ---> CONNECTING
+[94995:pid-multiplicity]: [16:54:24][STATE] CONNECTING ---> DEVICE READY
+[95000:lambdakzero-initializer]: [INFO] Instrumenting crash signals
+[94988:internal-dpl-aod-index-builder]: [INFO] Instrumenting crash signals
+[94995:pid-multiplicity]: [16:54:24][STATE] DEVICE READY ---> INITIALIZING TASK
+[94998:lambdakzero-preselector]: [INFO] Instrumenting crash signals
+[94992:bc-selection-task]: [INFO] Instrumenting crash signals
+[94995:pid-multiplicity]: [16:54:24][STATE] INITIALIZING TASK ---> READY
+[95000:lambdakzero-initializer]: [INFO] Spawing new device lambdakzero-initializer in process with pid 95000
+[95000:lambdakzero-initializer]: [16:54:24][INFO] 
+[95000:lambdakzero-initializer]:       ______      _    _______  _________ 
+[95000:lambdakzero-initializer]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[95000:lambdakzero-initializer]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[95000:lambdakzero-initializer]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[95000:lambdakzero-initializer]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[95000:lambdakzero-initializer]: 
+[95000:lambdakzero-initializer]: [16:54:24][STATE] Starting FairMQ state machine --> IDLE
+[94995:pid-multiplicity]: [16:54:24][STATE] READY ---> RUNNING
+[94985:internal-dpl-aod-reader]: [INFO] Instrumenting crash signals
+[94995:pid-multiplicity]: [16:54:24][INFO] fair::mq::Device running...
+[95000:lambdakzero-initializer]: [16:54:24][STATE] IDLE ---> INITIALIZING DEVICE
+[94995:pid-multiplicity]: [16:54:24][INFO] LHCPeriod is not available, using current month NOV
+[95000:lambdakzero-initializer]: [16:54:24][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[95000:lambdakzero-initializer]: [16:54:24][STATE] INITIALIZED ---> BINDING
+[95000:lambdakzero-initializer]: [16:54:24][STATE] BINDING ---> BOUND
+[95000:lambdakzero-initializer]: [16:54:24][STATE] BOUND ---> CONNECTING
+[94992:bc-selection-task]: [INFO] Spawing new device bc-selection-task in process with pid 94992
+[95000:lambdakzero-initializer]: [16:54:24][STATE] CONNECTING ---> DEVICE READY
+[95000:lambdakzero-initializer]: [16:54:24][STATE] DEVICE READY ---> INITIALIZING TASK
+[94992:bc-selection-task]: [16:54:24][INFO] 
+[94992:bc-selection-task]:       ______      _    _______  _________ 
+[94992:bc-selection-task]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[94992:bc-selection-task]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[94992:bc-selection-task]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[94992:bc-selection-task]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[94992:bc-selection-task]: 
+[94992:bc-selection-task]: [16:54:24][STATE] Starting FairMQ state machine --> IDLE
+[95000:lambdakzero-initializer]: [16:54:24][STATE] INITIALIZING TASK ---> READY
+[95000:lambdakzero-initializer]: [16:54:24][STATE] READY ---> RUNNING
+[95000:lambdakzero-initializer]: [16:54:24][INFO] fair::mq::Device running...
+[95000:lambdakzero-initializer]: [16:54:24][INFO] LHCPeriod is not available, using current month NOV
+[95000:lambdakzero-initializer]: [16:54:24][INFO] Correctly handshaken websocket connection.
+[94992:bc-selection-task]: [16:54:24][STATE] IDLE ---> INITIALIZING DEVICE
+[94988:internal-dpl-aod-index-builder]: [INFO] Spawing new device internal-dpl-aod-index-builder in process with pid 94988
+[94988:internal-dpl-aod-index-builder]: [16:54:24][INFO] 
+[94988:internal-dpl-aod-index-builder]:       ______      _    _______  _________ 
+[94988:internal-dpl-aod-index-builder]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[94988:internal-dpl-aod-index-builder]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[94988:internal-dpl-aod-index-builder]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[94988:internal-dpl-aod-index-builder]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[94988:internal-dpl-aod-index-builder]: 
+[94988:internal-dpl-aod-index-builder]: [16:54:24][STATE] Starting FairMQ state machine --> IDLE
+[94992:bc-selection-task]: [16:54:24][INFO] Init CcdApi with UserAgentID: visitor-117248221.dyndns.cern.ch-1699286064-pp58MK, Host: http://alice-ccdb.cern.ch/
+[94992:bc-selection-task]: [16:54:24][INFO] Init CcdApi with UserAgentID: visitor-117248221.dyndns.cern.ch-1699286064-pp58MK, Host: http://alice-ccdb.cern.ch
+[94985:internal-dpl-aod-reader]: [INFO] Spawing new device internal-dpl-aod-reader in process with pid 94985
+[94992:bc-selection-task]: [16:54:24][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[94988:internal-dpl-aod-index-builder]: [16:54:24][STATE] IDLE ---> INITIALIZING DEVICE
+[94992:bc-selection-task]: [16:54:24][STATE] INITIALIZED ---> BINDING
+[94985:internal-dpl-aod-reader]: [16:54:24][INFO] 
+[94985:internal-dpl-aod-reader]:       ______      _    _______  _________ 
+[94985:internal-dpl-aod-reader]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[94985:internal-dpl-aod-reader]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[94985:internal-dpl-aod-reader]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[94985:internal-dpl-aod-reader]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[94985:internal-dpl-aod-reader]: 
+[94985:internal-dpl-aod-reader]: [16:54:24][STATE] Starting FairMQ state machine --> IDLE
+[94988:internal-dpl-aod-index-builder]: [16:54:24][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[94988:internal-dpl-aod-index-builder]: [16:54:24][STATE] INITIALIZED ---> BINDING
+[94992:bc-selection-task]: [16:54:24][STATE] BINDING ---> BOUND
+[94992:bc-selection-task]: [16:54:24][STATE] BOUND ---> CONNECTING
+[94992:bc-selection-task]: [16:54:24][STATE] CONNECTING ---> DEVICE READY
+[94988:internal-dpl-aod-index-builder]: [16:54:24][STATE] BINDING ---> BOUND
+[94992:bc-selection-task]: [16:54:24][STATE] DEVICE READY ---> INITIALIZING TASK
+[94988:internal-dpl-aod-index-builder]: [16:54:24][STATE] BOUND ---> CONNECTING
+[94995:pid-multiplicity]: [16:54:24][INFO] Correctly handshaken websocket connection.
+[94988:internal-dpl-aod-index-builder]: [16:54:24][STATE] CONNECTING ---> DEVICE READY
+[94992:bc-selection-task]: [16:54:24][STATE] INITIALIZING TASK ---> READY
+[94992:bc-selection-task]: [16:54:24][STATE] READY ---> RUNNING
+[94992:bc-selection-task]: [16:54:24][INFO] fair::mq::Device running...
+[94992:bc-selection-task]: [16:54:24][INFO] LHCPeriod is not available, using current month NOV
+[94988:internal-dpl-aod-index-builder]: [16:54:24][STATE] DEVICE READY ---> INITIALIZING TASK
+[94992:bc-selection-task]: [16:54:24][INFO] Correctly handshaken websocket connection.
+[94988:internal-dpl-aod-index-builder]: [16:54:24][STATE] INITIALIZING TASK ---> READY
+[94988:internal-dpl-aod-index-builder]: [16:54:24][STATE] READY ---> RUNNING
+[94988:internal-dpl-aod-index-builder]: [16:54:24][INFO] fair::mq::Device running...
+[94988:internal-dpl-aod-index-builder]: [16:54:24][INFO] LHCPeriod is not available, using current month NOV
+[94988:internal-dpl-aod-index-builder]: [16:54:24][INFO] Correctly handshaken websocket connection.
+[94996:tpc-pid]: [INFO] Instrumenting crash signals
+[95002:lambdakzero-v0-data-link-builder]: [INFO] Instrumenting crash signals
+[94996:tpc-pid]: [INFO] Spawing new device tpc-pid in process with pid 94996
+[94996:tpc-pid]: [16:54:24][INFO] 
+[94996:tpc-pid]:       ______      _    _______  _________ 
+[94996:tpc-pid]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[94996:tpc-pid]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[94996:tpc-pid]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[94996:tpc-pid]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[94996:tpc-pid]: 
+[94996:tpc-pid]: [16:54:24][STATE] Starting FairMQ state machine --> IDLE
+[94998:lambdakzero-preselector]: [INFO] Spawing new device lambdakzero-preselector in process with pid 94998
+[94998:lambdakzero-preselector]: [16:54:24][INFO] 
+[94998:lambdakzero-preselector]:       ______      _    _______  _________ 
+[94998:lambdakzero-preselector]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[94998:lambdakzero-preselector]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[94998:lambdakzero-preselector]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[94998:lambdakzero-preselector]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[94998:lambdakzero-preselector]: 
+[94998:lambdakzero-preselector]: [16:54:24][STATE] Starting FairMQ state machine --> IDLE
+[95001:lambdakzero-label-builder]: [INFO] Instrumenting crash signals
+[94998:lambdakzero-preselector]: [16:54:24][STATE] IDLE ---> INITIALIZING DEVICE
+[94985:internal-dpl-aod-reader]: [16:54:24][STATE] IDLE ---> INITIALIZING DEVICE
+[94996:tpc-pid]: [16:54:24][STATE] IDLE ---> INITIALIZING DEVICE
+[94998:lambdakzero-preselector]: [16:54:24][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[94985:internal-dpl-aod-reader]: [16:54:24][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[94998:lambdakzero-preselector]: [16:54:24][STATE] INITIALIZED ---> BINDING
+[94985:internal-dpl-aod-reader]: [16:54:24][STATE] INITIALIZED ---> BINDING
+[94996:tpc-pid]: [16:54:24][INFO] Init CcdApi with UserAgentID: visitor-117248221.dyndns.cern.ch-1699286064-AYptIp, Host: http://alice-ccdb.cern.ch/
+[94996:tpc-pid]: [16:54:24][INFO] Auto-enabling table: pidTPCPi
+[94996:tpc-pid]: [16:54:24][INFO] Auto-enabling table: pidTPCPr
+[94996:tpc-pid]: [16:54:24][INFO] Reco pass not specified; CCDB will take latest available object
+[94996:tpc-pid]: [16:54:24][INFO] Init CcdApi with UserAgentID: visitor-117248221.dyndns.cern.ch-1699286064-AYptIp, Host: http://alice-ccdb.cern.ch
+[94996:tpc-pid]: [16:54:24][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[94998:lambdakzero-preselector]: [16:54:24][STATE] BINDING ---> BOUND
+[94996:tpc-pid]: [16:54:24][STATE] INITIALIZED ---> BINDING
+[95002:lambdakzero-v0-data-link-builder]: [INFO] Spawing new device lambdakzero-v0-data-link-builder in process with pid 95002
+[94998:lambdakzero-preselector]: [16:54:24][STATE] BOUND ---> CONNECTING
+[94996:tpc-pid]: [16:54:24][STATE] BINDING ---> BOUND
+[95002:lambdakzero-v0-data-link-builder]: [16:54:24][INFO] 
+[95002:lambdakzero-v0-data-link-builder]:       ______      _    _______  _________ 
+[95002:lambdakzero-v0-data-link-builder]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[95002:lambdakzero-v0-data-link-builder]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[95002:lambdakzero-v0-data-link-builder]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[95002:lambdakzero-v0-data-link-builder]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[95002:lambdakzero-v0-data-link-builder]: 
+[95002:lambdakzero-v0-data-link-builder]: [16:54:24][STATE] Starting FairMQ state machine --> IDLE
+[94996:tpc-pid]: [16:54:24][STATE] BOUND ---> CONNECTING
+[94996:tpc-pid]: [16:54:24][STATE] CONNECTING ---> DEVICE READY
+[94996:tpc-pid]: [16:54:24][STATE] DEVICE READY ---> INITIALIZING TASK
+[94996:tpc-pid]: [16:54:24][STATE] INITIALIZING TASK ---> READY
+[95002:lambdakzero-v0-data-link-builder]: [16:54:24][STATE] IDLE ---> INITIALIZING DEVICE
+[95004:cascade-builder]: [INFO] Instrumenting crash signals
+[95002:lambdakzero-v0-data-link-builder]: [16:54:24][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[95002:lambdakzero-v0-data-link-builder]: [16:54:24][STATE] INITIALIZED ---> BINDING
+[95002:lambdakzero-v0-data-link-builder]: [16:54:24][STATE] BINDING ---> BOUND
+[95002:lambdakzero-v0-data-link-builder]: [16:54:24][STATE] BOUND ---> CONNECTING
+[95004:cascade-builder]: [INFO] Spawing new device cascade-builder in process with pid 95004
+[95002:lambdakzero-v0-data-link-builder]: [16:54:24][STATE] CONNECTING ---> DEVICE READY
+[95002:lambdakzero-v0-data-link-builder]: [16:54:24][STATE] DEVICE READY ---> INITIALIZING TASK
+[95004:cascade-builder]: [16:54:24][INFO] 
+[95004:cascade-builder]:       ______      _    _______  _________ 
+[95004:cascade-builder]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[95004:cascade-builder]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[95004:cascade-builder]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[95004:cascade-builder]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[95004:cascade-builder]: 
+[95004:cascade-builder]: [16:54:24][STATE] Starting FairMQ state machine --> IDLE
+[95002:lambdakzero-v0-data-link-builder]: [16:54:24][STATE] INITIALIZING TASK ---> READY
+[95002:lambdakzero-v0-data-link-builder]: [16:54:24][STATE] READY ---> RUNNING
+[95002:lambdakzero-v0-data-link-builder]: [16:54:24][INFO] fair::mq::Device running...
+[94999:lambdakzero-builder]: [INFO] Instrumenting crash signals
+[94998:lambdakzero-preselector]: [16:54:24][STATE] CONNECTING ---> DEVICE READY
+[94998:lambdakzero-preselector]: [16:54:24][STATE] DEVICE READY ---> INITIALIZING TASK
+[95002:lambdakzero-v0-data-link-builder]: [16:54:24][INFO] LHCPeriod is not available, using current month NOV
+[95002:lambdakzero-v0-data-link-builder]: [16:54:24][INFO] Correctly handshaken websocket connection.
+[94998:lambdakzero-preselector]: [16:54:24][STATE] INITIALIZING TASK ---> READY
+[94998:lambdakzero-preselector]: [16:54:24][STATE] READY ---> RUNNING
+[94998:lambdakzero-preselector]: [16:54:24][INFO] fair::mq::Device running...
+[95006:cascade-label-builder]: [INFO] Instrumenting crash signals
+[94998:lambdakzero-preselector]: [16:54:24][INFO] LHCPeriod is not available, using current month NOV
+[94998:lambdakzero-preselector]: [16:54:24][INFO] Correctly handshaken websocket connection.
+[94996:tpc-pid]: [16:54:24][STATE] READY ---> RUNNING
+[94996:tpc-pid]: [16:54:24][INFO] fair::mq::Device running...
+[94996:tpc-pid]: [16:54:24][INFO] LHCPeriod is not available, using current month NOV
+[95001:lambdakzero-label-builder]: [INFO] Spawing new device lambdakzero-label-builder in process with pid 95001
+[95001:lambdakzero-label-builder]: [16:54:24][INFO] 
+[95001:lambdakzero-label-builder]:       ______      _    _______  _________ 
+[95001:lambdakzero-label-builder]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[95001:lambdakzero-label-builder]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[95001:lambdakzero-label-builder]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[95001:lambdakzero-label-builder]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[95001:lambdakzero-label-builder]: 
+[94999:lambdakzero-builder]: [INFO] Spawing new device lambdakzero-builder in process with pid 94999
+[95001:lambdakzero-label-builder]: [16:54:24][STATE] Starting FairMQ state machine --> IDLE
+[94999:lambdakzero-builder]: [16:54:24][INFO] 
+[94999:lambdakzero-builder]:       ______      _    _______  _________ 
+[94999:lambdakzero-builder]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[94999:lambdakzero-builder]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[94999:lambdakzero-builder]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[94999:lambdakzero-builder]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[94999:lambdakzero-builder]: 
+[94999:lambdakzero-builder]: [16:54:24][STATE] Starting FairMQ state machine --> IDLE
+[95001:lambdakzero-label-builder]: [16:54:24][STATE] IDLE ---> INITIALIZING DEVICE
+[94985:internal-dpl-aod-reader]: [16:54:24][STATE] BINDING ---> BOUND
+[94985:internal-dpl-aod-reader]: [16:54:24][STATE] BOUND ---> CONNECTING
+[94999:lambdakzero-builder]: [16:54:24][STATE] IDLE ---> INITIALIZING DEVICE
+[95001:lambdakzero-label-builder]: [16:54:24][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[95001:lambdakzero-label-builder]: [16:54:24][STATE] INITIALIZED ---> BINDING
+[95001:lambdakzero-label-builder]: [16:54:24][STATE] BINDING ---> BOUND
+[95001:lambdakzero-label-builder]: [16:54:24][STATE] BOUND ---> CONNECTING
+[95006:cascade-label-builder]: [INFO] Spawing new device cascade-label-builder in process with pid 95006
+[95006:cascade-label-builder]: [16:54:24][INFO] 
+[95006:cascade-label-builder]:       ______      _    _______  _________ 
+[95006:cascade-label-builder]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[95006:cascade-label-builder]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[95006:cascade-label-builder]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[95006:cascade-label-builder]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[95006:cascade-label-builder]: 
+[95006:cascade-label-builder]: [16:54:24][STATE] Starting FairMQ state machine --> IDLE
+[95001:lambdakzero-label-builder]: [16:54:24][STATE] CONNECTING ---> DEVICE READY
+[95001:lambdakzero-label-builder]: [16:54:24][STATE] DEVICE READY ---> INITIALIZING TASK
+[95001:lambdakzero-label-builder]: [16:54:24][STATE] INITIALIZING TASK ---> READY
+[95001:lambdakzero-label-builder]: [16:54:24][STATE] READY ---> RUNNING
+[95001:lambdakzero-label-builder]: [16:54:24][INFO] fair::mq::Device running...
+[95001:lambdakzero-label-builder]: [16:54:24][INFO] LHCPeriod is not available, using current month NOV
+[95001:lambdakzero-label-builder]: [16:54:24][INFO] Correctly handshaken websocket connection.
+[95006:cascade-label-builder]: [16:54:24][STATE] IDLE ---> INITIALIZING DEVICE
+[94985:internal-dpl-aod-reader]: [16:54:24][STATE] CONNECTING ---> DEVICE READY
+[94985:internal-dpl-aod-reader]: [16:54:24][STATE] DEVICE READY ---> INITIALIZING TASK
+[95006:cascade-label-builder]: [16:54:24][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[95006:cascade-label-builder]: [16:54:24][STATE] INITIALIZED ---> BINDING
+[94994:event-selection-task]: [INFO] Instrumenting crash signals
+[94985:internal-dpl-aod-reader]: [16:54:24][STATE] INITIALIZING TASK ---> READY
+[94985:internal-dpl-aod-reader]: [16:54:24][STATE] READY ---> RUNNING
+[94985:internal-dpl-aod-reader]: [16:54:24][INFO] fair::mq::Device running...
+[94985:internal-dpl-aod-reader]: [16:54:24][INFO] LHCPeriod is not available, using current month NOV
+[95004:cascade-builder]: [16:54:24][STATE] IDLE ---> INITIALIZING DEVICE
+[95006:cascade-label-builder]: [16:54:24][STATE] BINDING ---> BOUND
+[95006:cascade-label-builder]: [16:54:24][STATE] BOUND ---> CONNECTING
+[95006:cascade-label-builder]: [16:54:24][STATE] CONNECTING ---> DEVICE READY
+[95006:cascade-label-builder]: [16:54:24][STATE] DEVICE READY ---> INITIALIZING TASK
+[95006:cascade-label-builder]: [16:54:24][STATE] INITIALIZING TASK ---> READY
+[95006:cascade-label-builder]: [16:54:24][STATE] READY ---> RUNNING
+[95006:cascade-label-builder]: [16:54:24][INFO] fair::mq::Device running...
+[95006:cascade-label-builder]: [16:54:24][INFO] LHCPeriod is not available, using current month NOV
+[INFO] Controller for internal-dpl-aod-reader now available.
+[95006:cascade-label-builder]: [16:54:24][INFO] Correctly handshaken websocket connection.
+[95008:kfcascade-link-builder]: [INFO] Instrumenting crash signals
+[94985:internal-dpl-aod-reader]: [16:54:24][INFO] Correctly handshaken websocket connection.
+[94994:event-selection-task]: [INFO] Spawing new device event-selection-task in process with pid 94994
+[94994:event-selection-task]: [16:54:24][INFO] 
+[94994:event-selection-task]:       ______      _    _______  _________ 
+[94994:event-selection-task]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[94994:event-selection-task]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[94994:event-selection-task]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[94994:event-selection-task]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[94994:event-selection-task]: 
+[94994:event-selection-task]: [16:54:24][STATE] Starting FairMQ state machine --> IDLE
+[95007:cascade-link-builder]: [INFO] Instrumenting crash signals
+[94994:event-selection-task]: [16:54:24][STATE] IDLE ---> INITIALIZING DEVICE
+[94994:event-selection-task]: [16:54:24][INFO] Init CcdApi with UserAgentID: visitor-117248221.dyndns.cern.ch-1699286064-pr78MM, Host: http://alice-ccdb.cern.ch/
+[94994:event-selection-task]: [16:54:24][INFO] Init CcdApi with UserAgentID: visitor-117248221.dyndns.cern.ch-1699286064-pr78MM, Host: http://alice-ccdb.cern.ch
+[94994:event-selection-task]: [16:54:24][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[94994:event-selection-task]: [16:54:24][STATE] INITIALIZED ---> BINDING
+[95004:cascade-builder]: [16:54:24][INFO] Init CcdApi with UserAgentID: visitor-117248221.dyndns.cern.ch-1699286064-x19CYO, Host: http://alice-ccdb.cern.ch/
+[95004:cascade-builder]: [16:54:24][INFO] Init CcdApi with UserAgentID: visitor-117248221.dyndns.cern.ch-1699286064-x19CYO, Host: http://alice-ccdb.cern.ch
+[95004:cascade-builder]: [16:54:24][INFO] LUT correction requested, loading LUT
+[94999:lambdakzero-builder]: [16:54:24][INFO] Init CcdApi with UserAgentID: visitor-117248221.dyndns.cern.ch-1699286064-pvBDRR, Host: http://alice-ccdb.cern.ch/
+[94999:lambdakzero-builder]: [16:54:24][INFO] Init CcdApi with UserAgentID: visitor-117248221.dyndns.cern.ch-1699286064-pvBDRR, Host: http://alice-ccdb.cern.ch
+[94999:lambdakzero-builder]: [16:54:24][INFO] LUT correction requested, loading LUT
+[94996:tpc-pid]: [16:54:24][INFO] Correctly handshaken websocket connection.
+[94994:event-selection-task]: [16:54:24][STATE] BINDING ---> BOUND
+[94994:event-selection-task]: [16:54:24][STATE] BOUND ---> CONNECTING
+[95008:kfcascade-link-builder]: [INFO] Spawing new device kfcascade-link-builder in process with pid 95008
+[94994:event-selection-task]: [16:54:24][STATE] CONNECTING ---> DEVICE READY
+[94994:event-selection-task]: [16:54:24][STATE] DEVICE READY ---> INITIALIZING TASK
+[95008:kfcascade-link-builder]: [16:54:24][INFO] 
+[95008:kfcascade-link-builder]:       ______      _    _______  _________ 
+[95008:kfcascade-link-builder]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[95008:kfcascade-link-builder]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[95008:kfcascade-link-builder]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[95008:kfcascade-link-builder]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[95008:kfcascade-link-builder]: 
+[95008:kfcascade-link-builder]: [16:54:24][STATE] Starting FairMQ state machine --> IDLE
+[94994:event-selection-task]: [16:54:24][STATE] INITIALIZING TASK ---> READY
+[94994:event-selection-task]: [16:54:24][STATE] READY ---> RUNNING
+[94994:event-selection-task]: [16:54:24][INFO] fair::mq::Device running...
+[94994:event-selection-task]: [16:54:24][INFO] LHCPeriod is not available, using current month NOV
+[94994:event-selection-task]: [16:54:24][INFO] Correctly handshaken websocket connection.
+[95007:cascade-link-builder]: [INFO] Spawing new device cascade-link-builder in process with pid 95007
+[95007:cascade-link-builder]: [16:54:24][INFO] 
+[95007:cascade-link-builder]:       ______      _    _______  _________ 
+[95007:cascade-link-builder]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[95007:cascade-link-builder]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[95007:cascade-link-builder]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[95007:cascade-link-builder]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[95007:cascade-link-builder]: 
+[95007:cascade-link-builder]: [16:54:24][STATE] Starting FairMQ state machine --> IDLE
+[95008:kfcascade-link-builder]: [16:54:24][STATE] IDLE ---> INITIALIZING DEVICE
+[95008:kfcascade-link-builder]: [16:54:24][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[95008:kfcascade-link-builder]: [16:54:24][STATE] INITIALIZED ---> BINDING
+[95008:kfcascade-link-builder]: [16:54:24][STATE] BINDING ---> BOUND
+[95008:kfcascade-link-builder]: [16:54:24][STATE] BOUND ---> CONNECTING
+[95008:kfcascade-link-builder]: [16:54:24][STATE] CONNECTING ---> DEVICE READY
+[95008:kfcascade-link-builder]: [16:54:24][STATE] DEVICE READY ---> INITIALIZING TASK
+[95008:kfcascade-link-builder]: [16:54:24][STATE] INITIALIZING TASK ---> READY
+[95008:kfcascade-link-builder]: [16:54:24][STATE] READY ---> RUNNING
+[95008:kfcascade-link-builder]: [16:54:24][INFO] fair::mq::Device running...
+[95008:kfcascade-link-builder]: [16:54:24][INFO] LHCPeriod is not available, using current month NOV
+[95008:kfcascade-link-builder]: [16:54:24][INFO] Correctly handshaken websocket connection.
+[95007:cascade-link-builder]: [16:54:24][STATE] IDLE ---> INITIALIZING DEVICE
+[95009:strangeness_tutorial]: [INFO] Instrumenting crash signals
+[95007:cascade-link-builder]: [16:54:24][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[95007:cascade-link-builder]: [16:54:24][STATE] INITIALIZED ---> BINDING
+[95007:cascade-link-builder]: [16:54:24][STATE] BINDING ---> BOUND
+[95007:cascade-link-builder]: [16:54:24][STATE] BOUND ---> CONNECTING
+[95007:cascade-link-builder]: [16:54:24][STATE] CONNECTING ---> DEVICE READY
+[95007:cascade-link-builder]: [16:54:24][STATE] DEVICE READY ---> INITIALIZING TASK
+[95007:cascade-link-builder]: [16:54:24][STATE] INITIALIZING TASK ---> READY
+[95007:cascade-link-builder]: [16:54:24][STATE] READY ---> RUNNING
+[95007:cascade-link-builder]: [16:54:24][INFO] fair::mq::Device running...
+[95007:cascade-link-builder]: [16:54:24][INFO] LHCPeriod is not available, using current month NOV
+[95007:cascade-link-builder]: [16:54:24][INFO] Correctly handshaken websocket connection.
+[95005:cascade-initializer]: [INFO] Instrumenting crash signals
+[95010:internal-dpl-aod-writer]: [INFO] Instrumenting crash signals
+[95012:internal-dpl-injected-dummy-sink]: [INFO] Instrumenting crash signals
+[95005:cascade-initializer]: [INFO] Spawing new device cascade-initializer in process with pid 95005
+[95005:cascade-initializer]: [16:54:24][INFO] 
+[95005:cascade-initializer]:       ______      _    _______  _________ 
+[95005:cascade-initializer]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[95005:cascade-initializer]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[95005:cascade-initializer]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[95005:cascade-initializer]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[95005:cascade-initializer]: 
+[95005:cascade-initializer]: [16:54:24][STATE] Starting FairMQ state machine --> IDLE
+[95003:cascade-preselector]: [INFO] Instrumenting crash signals
+[95009:strangeness_tutorial]: [INFO] Spawing new device strangeness_tutorial in process with pid 95009
+[95010:internal-dpl-aod-writer]: [INFO] Spawing new device internal-dpl-aod-writer in process with pid 95010
+[95009:strangeness_tutorial]: [16:54:24][INFO] 
+[95009:strangeness_tutorial]:       ______      _    _______  _________ 
+[95009:strangeness_tutorial]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[95009:strangeness_tutorial]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[95009:strangeness_tutorial]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[95009:strangeness_tutorial]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[95009:strangeness_tutorial]: 
+[95009:strangeness_tutorial]: [16:54:24][STATE] Starting FairMQ state machine --> IDLE
+[95010:internal-dpl-aod-writer]: [16:54:24][INFO] 
+[95010:internal-dpl-aod-writer]:       ______      _    _______  _________ 
+[95010:internal-dpl-aod-writer]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[95010:internal-dpl-aod-writer]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[95010:internal-dpl-aod-writer]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[95010:internal-dpl-aod-writer]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[95010:internal-dpl-aod-writer]: 
+[95010:internal-dpl-aod-writer]: [16:54:24][STATE] Starting FairMQ state machine --> IDLE
+[95010:internal-dpl-aod-writer]: [16:54:24][STATE] IDLE ---> INITIALIZING DEVICE
+[95005:cascade-initializer]: [16:54:24][STATE] IDLE ---> INITIALIZING DEVICE
+[95010:internal-dpl-aod-writer]: [16:54:24][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[95010:internal-dpl-aod-writer]: [16:54:24][STATE] INITIALIZED ---> BINDING
+[95005:cascade-initializer]: [16:54:24][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[95010:internal-dpl-aod-writer]: [16:54:24][STATE] BINDING ---> BOUND
+[95005:cascade-initializer]: [16:54:24][STATE] INITIALIZED ---> BINDING
+[95010:internal-dpl-aod-writer]: [16:54:24][STATE] BOUND ---> CONNECTING
+[95012:internal-dpl-injected-dummy-sink]: [INFO] Spawing new device internal-dpl-injected-dummy-sink in process with pid 95012
+[95012:internal-dpl-injected-dummy-sink]: [16:54:24][INFO] 
+[95012:internal-dpl-injected-dummy-sink]:       ______      _    _______  _________ 
+[95012:internal-dpl-injected-dummy-sink]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[95012:internal-dpl-injected-dummy-sink]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[95012:internal-dpl-injected-dummy-sink]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[95012:internal-dpl-injected-dummy-sink]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[95012:internal-dpl-injected-dummy-sink]: 
+[95012:internal-dpl-injected-dummy-sink]: [16:54:24][STATE] Starting FairMQ state machine --> IDLE
+[95010:internal-dpl-aod-writer]: [16:54:24][STATE] CONNECTING ---> DEVICE READY
+[95010:internal-dpl-aod-writer]: [16:54:24][STATE] DEVICE READY ---> INITIALIZING TASK
+[95012:internal-dpl-injected-dummy-sink]: [16:54:24][STATE] IDLE ---> INITIALIZING DEVICE
+[95010:internal-dpl-aod-writer]: [16:54:24][STATE] INITIALIZING TASK ---> READY
+[95010:internal-dpl-aod-writer]: [16:54:24][STATE] READY ---> RUNNING
+[95010:internal-dpl-aod-writer]: [16:54:24][INFO] fair::mq::Device running...
+[95010:internal-dpl-aod-writer]: [16:54:24][INFO] LHCPeriod is not available, using current month NOV
+[95012:internal-dpl-injected-dummy-sink]: [16:54:24][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[95012:internal-dpl-injected-dummy-sink]: [16:54:24][STATE] INITIALIZED ---> BINDING
+[95012:internal-dpl-injected-dummy-sink]: [16:54:24][STATE] BINDING ---> BOUND
+[95012:internal-dpl-injected-dummy-sink]: [16:54:24][STATE] BOUND ---> CONNECTING
+[95012:internal-dpl-injected-dummy-sink]: [16:54:24][STATE] CONNECTING ---> DEVICE READY
+[95010:internal-dpl-aod-writer]: [16:54:24][INFO] Correctly handshaken websocket connection.
+[95012:internal-dpl-injected-dummy-sink]: [16:54:24][STATE] DEVICE READY ---> INITIALIZING TASK
+[95012:internal-dpl-injected-dummy-sink]: [16:54:24][STATE] INITIALIZING TASK ---> READY
+[95012:internal-dpl-injected-dummy-sink]: [16:54:24][STATE] READY ---> RUNNING
+[95012:internal-dpl-injected-dummy-sink]: [16:54:24][INFO] fair::mq::Device running...
+[95003:cascade-preselector]: [INFO] Spawing new device cascade-preselector in process with pid 95003
+[95012:internal-dpl-injected-dummy-sink]: [16:54:24][INFO] LHCPeriod is not available, using current month NOV
+[95003:cascade-preselector]: [16:54:24][INFO] 
+[95003:cascade-preselector]:       ______      _    _______  _________ 
+[95003:cascade-preselector]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[95003:cascade-preselector]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[95003:cascade-preselector]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[95003:cascade-preselector]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[95003:cascade-preselector]: 
+[95003:cascade-preselector]: [16:54:24][STATE] Starting FairMQ state machine --> IDLE
+[95012:internal-dpl-injected-dummy-sink]: [16:54:24][INFO] Correctly handshaken websocket connection.
+[95005:cascade-initializer]: [16:54:24][STATE] BINDING ---> BOUND
+[95005:cascade-initializer]: [16:54:24][STATE] BOUND ---> CONNECTING
+[95003:cascade-preselector]: [16:54:24][STATE] IDLE ---> INITIALIZING DEVICE
+[95011:internal-dpl-aod-global-analysis-file-sink]: [INFO] Instrumenting crash signals
+[95005:cascade-initializer]: [16:54:24][STATE] CONNECTING ---> DEVICE READY
+[95003:cascade-preselector]: [16:54:24][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[95003:cascade-preselector]: [16:54:24][STATE] INITIALIZED ---> BINDING
+[95005:cascade-initializer]: [16:54:24][STATE] DEVICE READY ---> INITIALIZING TASK
+[95005:cascade-initializer]: [16:54:24][STATE] INITIALIZING TASK ---> READY
+[95005:cascade-initializer]: [16:54:24][STATE] READY ---> RUNNING
+[95005:cascade-initializer]: [16:54:24][INFO] fair::mq::Device running...
+[95005:cascade-initializer]: [16:54:24][INFO] LHCPeriod is not available, using current month NOV
+[95005:cascade-initializer]: [16:54:24][INFO] Correctly handshaken websocket connection.
+[95003:cascade-preselector]: [16:54:24][STATE] BINDING ---> BOUND
+[95003:cascade-preselector]: [16:54:24][STATE] BOUND ---> CONNECTING
+[95003:cascade-preselector]: [16:54:24][STATE] CONNECTING ---> DEVICE READY
+[95003:cascade-preselector]: [16:54:24][STATE] DEVICE READY ---> INITIALIZING TASK
+[95003:cascade-preselector]: [16:54:24][STATE] INITIALIZING TASK ---> READY
+[95003:cascade-preselector]: [16:54:24][STATE] READY ---> RUNNING
+[95003:cascade-preselector]: [16:54:24][INFO] fair::mq::Device running...
+[95003:cascade-preselector]: [16:54:24][INFO] LHCPeriod is not available, using current month NOV
+[95003:cascade-preselector]: [16:54:24][INFO] Correctly handshaken websocket connection.
+[95011:internal-dpl-aod-global-analysis-file-sink]: [INFO] Spawing new device internal-dpl-aod-global-analysis-file-sink in process with pid 95011
+[95011:internal-dpl-aod-global-analysis-file-sink]: [16:54:24][INFO] 
+[95011:internal-dpl-aod-global-analysis-file-sink]:       ______      _    _______  _________ 
+[95011:internal-dpl-aod-global-analysis-file-sink]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.8.0
+[95011:internal-dpl-aod-global-analysis-file-sink]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[95011:internal-dpl-aod-global-analysis-file-sink]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[95011:internal-dpl-aod-global-analysis-file-sink]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2023 GSI
+[95011:internal-dpl-aod-global-analysis-file-sink]: 
+[95011:internal-dpl-aod-global-analysis-file-sink]: [16:54:24][STATE] Starting FairMQ state machine --> IDLE
+[95011:internal-dpl-aod-global-analysis-file-sink]: [16:54:24][STATE] IDLE ---> INITIALIZING DEVICE
+[95011:internal-dpl-aod-global-analysis-file-sink]: [16:54:24][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[95011:internal-dpl-aod-global-analysis-file-sink]: [16:54:24][STATE] INITIALIZED ---> BINDING
+[95011:internal-dpl-aod-global-analysis-file-sink]: [16:54:24][STATE] BINDING ---> BOUND
+[95011:internal-dpl-aod-global-analysis-file-sink]: [16:54:24][STATE] BOUND ---> CONNECTING
+[95011:internal-dpl-aod-global-analysis-file-sink]: [16:54:24][STATE] CONNECTING ---> DEVICE READY
+[95011:internal-dpl-aod-global-analysis-file-sink]: [16:54:24][STATE] DEVICE READY ---> INITIALIZING TASK
+[95011:internal-dpl-aod-global-analysis-file-sink]: [16:54:24][STATE] INITIALIZING TASK ---> READY
+[95011:internal-dpl-aod-global-analysis-file-sink]: [16:54:24][STATE] READY ---> RUNNING
+[95011:internal-dpl-aod-global-analysis-file-sink]: [16:54:24][INFO] fair::mq::Device running...
+[95011:internal-dpl-aod-global-analysis-file-sink]: [16:54:24][INFO] LHCPeriod is not available, using current month NOV
+[95011:internal-dpl-aod-global-analysis-file-sink]: [16:54:24][INFO] Correctly handshaken websocket connection.
+[95009:strangeness_tutorial]: [16:54:25][STATE] IDLE ---> INITIALIZING DEVICE
+[95009:strangeness_tutorial]: [16:54:25][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[95009:strangeness_tutorial]: [16:54:25][STATE] INITIALIZED ---> BINDING
+[95009:strangeness_tutorial]: [16:54:25][STATE] BINDING ---> BOUND
+[95009:strangeness_tutorial]: [16:54:25][STATE] BOUND ---> CONNECTING
+[95009:strangeness_tutorial]: [16:54:25][STATE] CONNECTING ---> DEVICE READY
+[95009:strangeness_tutorial]: [16:54:25][STATE] DEVICE READY ---> INITIALIZING TASK
+[95009:strangeness_tutorial]: [16:54:25][STATE] INITIALIZING TASK ---> READY
+[95009:strangeness_tutorial]: [16:54:25][STATE] READY ---> RUNNING
+[95009:strangeness_tutorial]: [16:54:25][INFO] fair::mq::Device running...
+[95009:strangeness_tutorial]: [16:54:25][INFO] LHCPeriod is not available, using current month NOV
+[95009:strangeness_tutorial]: [16:54:25][INFO] Correctly handshaken websocket connection.
+[94991:track-propagation]: Info in <TJAlienConnectionManager>: Opening connection to JCentral. Please wait
+[94991:track-propagation]: Info in <TJAlienConnectionManager>: Opening connection to 128.142.249.53
+[94991:track-propagation]: Info in <TJAlienConnectionManager>: Successfully connected to 128.142.249.53
+[94986:internal-dpl-aod-spawner]: /Users/rnepeiv/alice/sw/BUILD/f180b8b7f03bf838a1764f006b7a592c4cc7102d/arrow/src_tmp/cpp/src/gandiva/cache.cc:50: Creating gandiva cache with capacity of 500
+[94986:internal-dpl-aod-spawner]: /Users/rnepeiv/alice/sw/BUILD/f180b8b7f03bf838a1764f006b7a592c4cc7102d/arrow/src_tmp/cpp/src/gandiva/engine.cc:112: Detected CPU Name : apple-m1
+[94986:internal-dpl-aod-spawner]: /Users/rnepeiv/alice/sw/BUILD/f180b8b7f03bf838a1764f006b7a592c4cc7102d/arrow/src_tmp/cpp/src/gandiva/engine.cc:113: Detected CPU Features:
+[94991:track-propagation]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/GLO/Param/MatLUT/09/60373/c3b9f9c3-48ad-11ee-87cc-2a010e0a0b16 in SE <ALICE::CERN::OCDB>
+[95004:cascade-builder]: Info in <TJAlienConnectionManager>: Opening connection to JCentral. Please wait
+[94999:lambdakzero-builder]: Info in <TJAlienConnectionManager>: Opening connection to JCentral. Please wait
+[94999:lambdakzero-builder]: Info in <TJAlienConnectionManager>: Opening connection to 128.142.249.33
+[94999:lambdakzero-builder]: Info in <TJAlienConnectionManager>: Successfully connected to 128.142.249.33
+[95004:cascade-builder]: Info in <TJAlienConnectionManager>: Opening connection to 128.142.249.17
+[95004:cascade-builder]: Info in <TJAlienConnectionManager>: Successfully connected to 128.142.249.17
+[95004:cascade-builder]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/GLO/Param/MatLUT/09/60373/c3b9f9c3-48ad-11ee-87cc-2a010e0a0b16 in SE <ALICE::CERN::OCDB>
+[94999:lambdakzero-builder]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/GLO/Param/MatLUT/09/60373/c3b9f9c3-48ad-11ee-87cc-2a010e0a0b16 in SE <ALICE::CERN::OCDB>
+[94985:internal-dpl-aod-reader]: [16:54:26][WARN] Timed out sending after 1s. Downstream backpressure detected on from_internal-dpl-aod-reader_to_track-propagation[0].
+[94989:timestamp-task]: Info in <TJAlienConnectionManager>: Opening connection to JCentral. Please wait
+[94986:internal-dpl-aod-spawner]: [16:54:27][WARN] Timed out sending after 1s. Downstream backpressure detected on from_internal-dpl-aod-spawner_to_lambdakzero-builder[0].
+[94989:timestamp-task]: Info in <TJAlienConnectionManager>: Opening connection to 128.142.249.51
+[94989:timestamp-task]: Info in <TJAlienConnectionManager>: Successfully connected to 128.142.249.51
+[94989:timestamp-task]: Info in <TJAlienFile::Open>: Accessing file /alice/data/CCDB/CTP/Calib/OrbitReset/09/22048/61c14cdd-4373-11ed-832e-0aa140641b9a in SE <ALICE::CERN::OCDB>
+[95004:cascade-builder]: [16:54:27][INFO] ccdb reads http://alice-ccdb.cern.ch/GLO/Param/MatLUT/1672531199000/c3b9f9c3-48ad-11ee-87cc-2a010e0a0b16 for 1699286064785 (retrieve, agent_id: visitor-117248221.dyndns.cern.ch-1699286064-x19CYO), 
+[95004:cascade-builder]: [16:54:27][INFO] Initializing voxel layer lookup
+[95004:cascade-builder]: [16:54:27][INFO] *+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*
+[95004:cascade-builder]: [16:54:27][INFO]  Multi-strange builder self-configuration
+[95004:cascade-builder]: [16:54:27][INFO] *+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*
+[95004:cascade-builder]: [16:54:27][INFO] Device named cascade-label-builder has subscribed to CascData table! Will now scan for desired settings...
+[95004:cascade-builder]: [16:54:27][INFO] Device named cascade-label-builder has subscribed to CascData table! Will now scan for desired settings...
+[95004:cascade-builder]: [16:54:27][INFO] Device named cascade-link-builder has subscribed to CascData table! Will now scan for desired settings...
+[95004:cascade-builder]: [16:54:27][INFO] Device named cascade-link-builder has subscribed to CascData table! Will now scan for desired settings...
+[95004:cascade-builder]: [16:54:27][INFO] Device named strangeness_tutorial has subscribed to CascData table! Will now scan for desired settings...
+[95004:cascade-builder]: [16:54:27][INFO] strangeness_tutorial requested cascade cospa = 0.980000
+[95004:cascade-builder]: [16:54:27][INFO] strangeness_tutorial requested DCA cascade daughters = 1.000000
+[95004:cascade-builder]: [16:54:27][INFO] strangeness_tutorial requested DCA bachelor daughter = 0.100000
+[95004:cascade-builder]: [16:54:27][INFO] strangeness_tutorial requested minimum V0 DCA to PV = 0.010000
+[95004:cascade-builder]: [16:54:27][INFO] strangeness_tutorial requested  to PV = 0.500000
+[95004:cascade-builder]: [16:54:27][INFO] strangeness_tutorial requested minimum V0 mass window (GeV/c^2) = 0.010000
+[95004:cascade-builder]: [16:54:27][INFO] Device named strangeness_tutorial has subscribed to CascData table! Will now scan for desired settings...
+[95004:cascade-builder]: [16:54:27][INFO] strangeness_tutorial requested cascade cospa = 0.980000
+[95004:cascade-builder]: [16:54:27][INFO] strangeness_tutorial requested DCA cascade daughters = 1.000000
+[95004:cascade-builder]: [16:54:27][INFO] strangeness_tutorial requested DCA bachelor daughter = 0.100000
+[95004:cascade-builder]: [16:54:27][INFO] strangeness_tutorial requested minimum V0 DCA to PV = 0.010000
+[95004:cascade-builder]: [16:54:27][INFO] strangeness_tutorial requested  to PV = 0.500000
+[95004:cascade-builder]: [16:54:27][INFO] strangeness_tutorial requested minimum V0 mass window (GeV/c^2) = 0.010000
+[95004:cascade-builder]: [16:54:27][INFO] Self-configuration finished! Decided on selections:
+[95004:cascade-builder]: [16:54:27][INFO]  -+*> Cascade cospa ............: 0.980000
+[95004:cascade-builder]: [16:54:27][INFO]  -+*> DCA cascade daughters ....: 1.000000
+[95004:cascade-builder]: [16:54:27][INFO]  -+*> DCA bachelor daughter ....: 0.100000
+[95004:cascade-builder]: [16:54:27][INFO]  -+*> Min DCA V0 to PV .........: 0.010000
+[95004:cascade-builder]: [16:54:27][INFO]  -+*> Min cascade decay radius .: 0.500000
+[95004:cascade-builder]: [16:54:27][INFO]  -+*> V0 mass window ...........: 0.010000
+[95004:cascade-builder]: [16:54:27][INFO] Strangeness builder configuration:
+[95004:cascade-builder]: [16:54:27][INFO] Run 3 processing enabled. Will subscribe to TracksIU table.
+[95004:cascade-builder]: [16:54:27][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[95004:cascade-builder]: [16:54:27][STATE] INITIALIZED ---> BINDING
+[95004:cascade-builder]: [16:54:27][STATE] BINDING ---> BOUND
+[95004:cascade-builder]: [16:54:27][STATE] BOUND ---> CONNECTING
+[95004:cascade-builder]: [16:54:27][STATE] CONNECTING ---> DEVICE READY
+[95004:cascade-builder]: [16:54:27][STATE] DEVICE READY ---> INITIALIZING TASK
+[95004:cascade-builder]: [16:54:27][STATE] INITIALIZING TASK ---> READY
+[95004:cascade-builder]: [16:54:27][STATE] READY ---> RUNNING
+[95004:cascade-builder]: [16:54:27][INFO] fair::mq::Device running...
+[95004:cascade-builder]: [16:54:27][INFO] LHCPeriod is not available, using current month NOV
+[95004:cascade-builder]: [16:54:27][INFO] Correctly handshaken websocket connection.
+[94999:lambdakzero-builder]: [16:54:28][INFO] ccdb reads http://alice-ccdb.cern.ch/GLO/Param/MatLUT/1672531199000/c3b9f9c3-48ad-11ee-87cc-2a010e0a0b16 for 1699286064792 (retrieve, agent_id: visitor-117248221.dyndns.cern.ch-1699286064-pvBDRR), 
+[94999:lambdakzero-builder]: [16:54:28][INFO] Initializing voxel layer lookup
+[94999:lambdakzero-builder]: [16:54:28][INFO] *+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*
+[94999:lambdakzero-builder]: [16:54:28][INFO]  Single-strange builder self-configuration
+[94999:lambdakzero-builder]: [16:54:28][INFO] *+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*+-+*
+[94999:lambdakzero-builder]: [16:54:28][INFO] Device named lambdakzero-label-builder has subscribed to V0datas table! Will now scan for desired settings...
+[94999:lambdakzero-builder]: [16:54:28][INFO] Device named lambdakzero-label-builder has subscribed to V0datas table! Will now scan for desired settings...
+[94999:lambdakzero-builder]: [16:54:28][INFO] Device named lambdakzero-v0-data-link-builder has subscribed to V0datas table! Will now scan for desired settings...
+[94999:lambdakzero-builder]: [16:54:28][INFO] Device named lambdakzero-v0-data-link-builder has subscribed to V0datas table! Will now scan for desired settings...
+[94999:lambdakzero-builder]: [16:54:28][INFO] Device named cascade-preselector has subscribed to V0datas table! Will now scan for desired settings...
+[94999:lambdakzero-builder]: [16:54:28][INFO] Device named cascade-preselector has subscribed to V0datas table! Will now scan for desired settings...
+[94999:lambdakzero-builder]: [16:54:28][INFO] Device named cascade-builder has subscribed to V0Covs table! Enabling.
+[94999:lambdakzero-builder]: [16:54:28][INFO] Device named cascade-builder has subscribed to V0datas table! Will now scan for desired settings...
+[94999:lambdakzero-builder]: [16:54:28][INFO] Device named cascade-builder has subscribed to V0datas table! Will now scan for desired settings...
+[94999:lambdakzero-builder]: [16:54:28][INFO] Device named cascade-label-builder has subscribed to V0datas table! Will now scan for desired settings...
+[94999:lambdakzero-builder]: [16:54:28][INFO] Device named cascade-label-builder has subscribed to V0datas table! Will now scan for desired settings...
+[94999:lambdakzero-builder]: [16:54:28][INFO] Device named strangeness_tutorial has subscribed to V0datas table! Will now scan for desired settings...
+[94999:lambdakzero-builder]: [16:54:28][INFO] strangeness_tutorial requested DCA V0 daughters = 1.000000
+[94999:lambdakzero-builder]: [16:54:28][INFO] strangeness_tutorial requested DCA positive daughter to PV = 0.060000
+[94999:lambdakzero-builder]: [16:54:28][INFO] strangeness_tutorial requested DCA negative daughter to PV = 0.060000
+[94999:lambdakzero-builder]: [16:54:28][INFO] strangeness_tutorial requested V0 cospa = 0.980000
+[94999:lambdakzero-builder]: [16:54:28][INFO] strangeness_tutorial requested minimum V0 radius = 0.500000
+[94999:lambdakzero-builder]: [16:54:28][INFO] Device named strangeness_tutorial has subscribed to V0datas table! Will now scan for desired settings...
+[94999:lambdakzero-builder]: [16:54:28][INFO] strangeness_tutorial requested DCA V0 daughters = 1.000000
+[94999:lambdakzero-builder]: [16:54:28][INFO] strangeness_tutorial requested DCA positive daughter to PV = 0.060000
+[94999:lambdakzero-builder]: [16:54:28][INFO] strangeness_tutorial requested DCA negative daughter to PV = 0.060000
+[94999:lambdakzero-builder]: [16:54:28][INFO] strangeness_tutorial requested V0 cospa = 0.980000
+[94999:lambdakzero-builder]: [16:54:28][INFO] strangeness_tutorial requested minimum V0 radius = 0.500000
+[94999:lambdakzero-builder]: [16:54:28][INFO] Self-configuration finished! Decided on selections:
+[94999:lambdakzero-builder]: [16:54:28][INFO]  -+*> V0 cospa ..............: 0.980000
+[94999:lambdakzero-builder]: [16:54:28][INFO]  -+*> DCA V0 daughters ......: 1.000000
+[94999:lambdakzero-builder]: [16:54:28][INFO]  -+*> DCA positive daughter .: 0.060000
+[94999:lambdakzero-builder]: [16:54:28][INFO]  -+*> DCA negative daughter .: 0.060000
+[94999:lambdakzero-builder]: [16:54:28][INFO]  -+*> Minimum V0 radius .....: 0.500000
+[94999:lambdakzero-builder]: [16:54:28][INFO]  -+*> process call configuration:
+[94999:lambdakzero-builder]: [16:54:28][INFO]  ---+*> Run 3 processing enabled. Will subscribe to TracksIU table.
+[94999:lambdakzero-builder]: [16:54:28][INFO]  ---+*> Will produce V0 cov mat table
+[94999:lambdakzero-builder]: [16:54:28][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[94999:lambdakzero-builder]: [16:54:28][STATE] INITIALIZED ---> BINDING
+[94999:lambdakzero-builder]: [16:54:28][STATE] BINDING ---> BOUND
+[94999:lambdakzero-builder]: [16:54:28][STATE] BOUND ---> CONNECTING
+[94986:internal-dpl-aod-spawner]: [16:54:28][INFO] Downstream backpressure on from_internal-dpl-aod-spawner_to_lambdakzero-builder[0] recovered.
+[94999:lambdakzero-builder]: [16:54:28][STATE] CONNECTING ---> DEVICE READY
+[94999:lambdakzero-builder]: [16:54:28][STATE] DEVICE READY ---> INITIALIZING TASK
+[94999:lambdakzero-builder]: [16:54:28][STATE] INITIALIZING TASK ---> READY
+[94999:lambdakzero-builder]: [16:54:28][STATE] READY ---> RUNNING
+[94999:lambdakzero-builder]: [16:54:28][INFO] fair::mq::Device running...
+[94999:lambdakzero-builder]: [16:54:28][INFO] LHCPeriod is not available, using current month NOV
+[94999:lambdakzero-builder]: [16:54:28][INFO] Correctly handshaken websocket connection.
+[94993:tracks-extra-spawner]: /Users/rnepeiv/alice/sw/BUILD/f180b8b7f03bf838a1764f006b7a592c4cc7102d/arrow/src_tmp/cpp/src/gandiva/cache.cc:50: Creating gandiva cache with capacity of 500
+[94993:tracks-extra-spawner]: /Users/rnepeiv/alice/sw/BUILD/f180b8b7f03bf838a1764f006b7a592c4cc7102d/arrow/src_tmp/cpp/src/gandiva/engine.cc:112: Detected CPU Name : apple-m1
+[94993:tracks-extra-spawner]: /Users/rnepeiv/alice/sw/BUILD/f180b8b7f03bf838a1764f006b7a592c4cc7102d/arrow/src_tmp/cpp/src/gandiva/engine.cc:113: Detected CPU Features:
+[94991:track-propagation]: [16:54:28][INFO] ccdb reads http://alice-ccdb.cern.ch/GLO/Param/MatLUT/1672531199000/c3b9f9c3-48ad-11ee-87cc-2a010e0a0b16 for 1699286064566 (retrieve, agent_id: visitor-117248221.dyndns.cern.ch-1699286064-h3BxJB), 
+[94991:track-propagation]: [16:54:28][INFO] Initializing voxel layer lookup
+[94991:track-propagation]: [16:54:28][STATE] INITIALIZING DEVICE ---> INITIALIZED
+[94991:track-propagation]: [16:54:28][STATE] INITIALIZED ---> BINDING
+[94991:track-propagation]: [16:54:28][STATE] BINDING ---> BOUND
+[94991:track-propagation]: [16:54:28][STATE] BOUND ---> CONNECTING
+[94991:track-propagation]: [16:54:28][STATE] CONNECTING ---> DEVICE READY
+[94991:track-propagation]: [16:54:28][STATE] DEVICE READY ---> INITIALIZING TASK
+[94985:internal-dpl-aod-reader]: [16:54:28][INFO] Downstream backpressure on from_internal-dpl-aod-reader_to_track-propagation[0] recovered.
+[94991:track-propagation]: [16:54:28][STATE] INITIALIZING TASK ---> READY
+[94991:track-propagation]: [16:54:28][STATE] READY ---> RUNNING
+[94991:track-propagation]: [16:54:28][INFO] fair::mq::Device running...
+[94991:track-propagation]: [16:54:28][INFO] LHCPeriod is not available, using current month NOV
+[94991:track-propagation]: [16:54:28][INFO] Correctly handshaken websocket connection.
+[94985:internal-dpl-aod-reader]: [16:54:28][INFO] Read info: lfn=/Users/rnepeiv/workLund/PhD_work/run3omega/data/used_in_analysis_note/29aug_localGT_anchored/user/r/rnepeivo/strange_prod/forthcoming/526641/556/AO2D.root,size=61315512,total_df=2,read_df=2,read_bytes=60898613,read_calls=1905,io_time=0.8,wait_time=2.9,level=0
+[94985:internal-dpl-aod-reader]: [16:54:29][INFO] Read info: lfn=/Users/rnepeiv/workLund/PhD_wor
