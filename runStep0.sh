@@ -7,12 +7,12 @@ LOGFILE="log-${STEP}.txt"
 DIR_THIS="$(dirname "$(realpath "$0")")"
 
 OPTION="-b --configuration json:/$DIR_THIS/jsonConfig/$STEP.json"
-#OPTION="-b --aod-file /Users/rnepeiv/workLund/PhD_work/run3omega/data/used_in_analysis_note/29aug_localGT_anchored/user/r/rnepeivo/strange_prod/forthcoming/526641/556/AO2D.root"
 
 o2-analysis-timestamp ${OPTION} \
 | o2-analysis-event-selection ${OPTION} \
 | o2-analysis-bc-converter ${OPTION} \
 | o2-analysis-tracks-extra-converter  ${OPTION} \
+| o2-analysis-track-propagation ${OPTION} \
 | o2-analysis-lf-lambdakzerobuilder ${OPTION} \
 | o2-analysistutorial-lf-strangeness-$STEP ${OPTION} \
 > "$LOGFILE" 2>&1

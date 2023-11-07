@@ -12,6 +12,7 @@ o2-analysis-timestamp ${OPTION} \
 | o2-analysis-event-selection ${OPTION} \
 | o2-analysis-bc-converter ${OPTION} \
 | o2-analysis-tracks-extra-converter  ${OPTION} \
+| o2-analysis-track-propagation ${OPTION} \
 | o2-analysis-pid-tpc ${OPTION} \
 | o2-analysis-pid-tpc-base ${OPTION} \
 | o2-analysis-pid-tpc-full ${OPTION} \
@@ -19,7 +20,6 @@ o2-analysis-timestamp ${OPTION} \
 | o2-analysis-lf-lambdakzerolabelbuilder ${OPTION} \
 | o2-analysis-lf-cascadebuilder ${OPTION} \
 | o2-analysis-lf-cascadelabelbuilder ${OPTION} \
-| o2-analysis-track-propagation ${OPTION} \
 | o2-analysistutorial-lf-strangeness-$STEP ${OPTION} \
 > "$LOGFILE" 2>&1
 
